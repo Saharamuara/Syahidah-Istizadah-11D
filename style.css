@@ -237,13 +237,13 @@ form button:hover {
 }
 
 .event-card {
-    background: #bca96f;
-    border: 1px solid #ddd;
+    background: #f4ece1;
+    border: 1px solid #8B4513;
     border-radius: 15px;
     padding: 25px;
     width: 300px;
     position: relative;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 15px rgba(139, 69, 19, 0.1);
     transition: transform 0.3s ease;
 }
 
@@ -284,5 +284,6 @@ form button:hover {
 .diskon {
     border: 2px solid #d2691e;
 }
+
 
 
