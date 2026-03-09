@@ -177,3 +177,110 @@ form button:hover {
     object-fit: cover;
     display: block;
 }
+.kontak-navigasi {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #fdf5e6;
+}
+
+.kontak-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.kontak-item {
+    text-decoration: none;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: transform 0.3s ease, background-color 0.3s;
+}
+
+.whatsapp { background-color: #25D366; }
+.instagram { background-color: #E1306C; }
+.email { background-color: #8B4513; }
+
+.kontak-item:hover {
+    transform: translateY(-5px);
+    opacity: 0.9;
+}
+.alamat-container {
+    margin: 30px auto;
+    max-width: 600px;
+    padding: 20px;
+    border: 2px dashed #8B4513;
+    border-radius: 10px;
+}
+.event-promo {
+    padding: 50px 20px;
+    background-color: #fffaf0;
+    text-align: center;
+}
+
+.section-title {
+    color: #8B4513;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #8B4513;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.event-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.event-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    padding: 25px;
+    width: 300px;
+    position: relative;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.event-card:hover {
+    transform: scale(1.05);
+}
+
+.badge {
+    position: absolute;
+    top: -10px;
+    right: 20px;
+    background: #8B4513;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.pameran h3, .diskon h3 {
+    color: #8B4513;
+    margin-top: 10px;
+}
+
+.tgl, .lokasi {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+.potongan {
+    font-size: 24px;
+    color: #d2691e;
+    margin: 15px 0;
+}
+
+.diskon {
+    border: 2px solid #d2691e;
+}
