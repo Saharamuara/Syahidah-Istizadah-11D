@@ -237,7 +237,7 @@ form button:hover {
 }
 
 .event-card {
-    background: white;
+    background: #bca96f;
     border: 1px solid #ddd;
     border-radius: 15px;
     padding: 25px;
@@ -284,4 +284,5 @@ form button:hover {
 .diskon {
     border: 2px solid #d2691e;
 }
+
 
