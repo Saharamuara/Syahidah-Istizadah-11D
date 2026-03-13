@@ -23,32 +23,47 @@
     </nav>
 </header>
 
-<main class="Formulir">
-     <div class="container-form">
-    <h2>Berikan Testimoni Anda</h2>
-    <form id="formTestimoni">
-         </form>
+    <main class="Formulir-Halaman"> <div class="container-form-putih"> <h2>Berikan Testimoni Anda</h2>
+        
+        <form id="formTestimoni">
+            <div class="input-group">
+                <label>Name:</label>
+                <input type="text" id="nama" placeholder="Full Name" required>
+            </div>
+
+            <div class="input-group">
+                <label>Asal Sekolah/Instansi/Komunitas:</label>
+                <input type="text" id="asal" placeholder="Asal Sekolah | Instansi | Komunitas" required>
+            </div>
+
+            <div class="input-group">
+                <label>Email:</label>
+                <input type="email" id="email" placeholder="email@example.com" required>
+            </div>
+
+            <div class="input-group">
+                <label>Judul Buku yang dibeli:</label>
+                <input type="text" id="judul" placeholder="Judul Buku yang dibeli" required>
+            </div>
+
+            <div class="input-group">
+                <label>Rating 1-5:</label>
+                <input type="number" id="rating" placeholder="1-5" min="1" max="5" required>
+            </div>
+
+            <div class="input-group">
+                <label>Testimoni Anda:</label>
+                <textarea id="pesan" placeholder="Tulis pengalaman Anda..." rows="4" required></textarea>
+            </div>
+
+            <button type="submit" class="btn-kirim">Kirim Testimoni</button>
+        </form>
+        <main>
+            <footer>
+                <p>&copy; 2026 Toko Ranaruta Baswara</p>
+            </footer>
     </div>
 </main>
-        <label for="nama">Nama:</label>
-        <input type="text" id="nama" name="nama" required placeholder="Nama lengkap">
-        <label for="asal sekolah/instansi/komunitas">Asal sekolah/Instansi/Komunitas:</label>
-        <input type="text" id="asal sekolah/instansi/komunitas" name="asal sekolah/instansi/komunitas" required placeholder="Asal sekolah/Instansi/Komunitas">
-        <label for="judul buku yang dibeli">Judul buku yang dibeli</label>
-        <input type="text" id="judul buku yang dibeli" name="judul buku yang dibeli" required placeholder="Judul buku yang dibeli">
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required placeholder="email@example.com">
-        <label for="rating">Rating:</label>
-        <input type="number" id="rating" name="rating" required placeholder="Rating">
-        <label for="pesan">Testimoni Anda:</label>
-        <textarea id="pesan" name="pesan" required placeholder="Tulis pengalaman Anda..." rows="5"></textarea>
-
-        <button type="submit">Kirim Testimoni</button>
-    </form>
-</main>
-<footer>
-    <p>&copy; 2026 Toko Buku Ranaruta Baswara</p>
-</footer>
 <script>
     document.getElementById('formTestimoni').addEventListener('submit', function(e) {
         e.preventDefault();
@@ -69,5 +84,6 @@
     });
 
 </script>
+
 
 
